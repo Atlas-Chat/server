@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.esotericsoftware.yamlbeans:yamlbeans:1.09" type="repository">
+    <properties maven-id="com.esotericsoftware.yamlbeans:yamlbeans:1.09" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/yamlbeans/yamlbeans/1.09/yamlbeans-1.09.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
