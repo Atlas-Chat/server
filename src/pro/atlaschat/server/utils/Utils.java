@@ -7,6 +7,9 @@ public class Utils {
 
     public static void init() {
         Settings.load();
+        ConnectionUtils.init();
+        ChannelUtils.init();
+        TestUtils.sendTest();
     }
 
 }

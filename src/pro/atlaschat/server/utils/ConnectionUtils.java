@@ -10,12 +10,13 @@ public class ConnectionUtils {
     public static AblyRealtime ablyRealtime = null;
 
     public static void init() {
-
+        initialize();
     }
 
     public static void initialize() {
         try {
             ablyRealtime = new AblyRealtime(Settings.ablykey);
+            ablyRealtime.connection.connect();
         } catch (Exception e) {
             e.printStackTrace();
         }
